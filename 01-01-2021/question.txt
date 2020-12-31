@@ -1,2 +1,3 @@
 Q1. Print "Hello world".
 Q2. Print "Hello moto".
+Q3. Recurrsion. 
