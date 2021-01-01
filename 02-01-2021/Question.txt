@@ -1,7 +1,10 @@
 Question.1
 Towers of Hanoi puzzle using Recursion.
+https://practice.geeksforgeeks.org/problems/tower-of-hanoi/0
+
 Question.2
 Given an array, check whether the array is in sorted order with recursion.
+
 Question.3
 Generate all the strings of n bits. Assume A[0..n – 1] is an array of size n.
 Question.4
