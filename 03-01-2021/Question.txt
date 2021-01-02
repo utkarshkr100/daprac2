@@ -17,5 +17,11 @@ Similar to insertion, here we also have three cases.
 • Deleting the last node
 • Deleting an intermediate node.
 
+Deletion by Keys(Search the data in the linked list)
+• Deleting the first node
+• Deleting the last node
+• Deleting an intermediate node.
+
+
 Question.2
 Same for Doubly Linked List.
