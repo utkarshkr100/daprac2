@@ -9,6 +9,7 @@ https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
 
 Question.3
 Generate all the strings of n bits. Assume A[0..n – 1] is an array of size n.
+https://www.geeksforgeeks.org/generate-all-the-binary-strings-of-n-bits/
 {Algo.}
 
 Question.4
