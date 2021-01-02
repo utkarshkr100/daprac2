@@ -8,10 +8,9 @@ https://practice.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1
 {Code in Recursive way.}
 
 Question.3
-Generate all the strings of n bits. Assume A[0..n – 1] is an array of size n.
-https://www.geeksforgeeks.org/generate-all-the-binary-strings-of-n-bits/
-{Algo.}
+Fibonacci Series Using Recursion.
+https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
 
 Question.4
-Generate all the strings of length n drawn from 0... k – 1.
-{Algo.}
+N-th Tribonacci Number
+https://leetcode.com/problems/n-th-tribonacci-number/
