@@ -124,6 +124,68 @@ public class DoubleLinkedList
 			prev_node=prev_node.prev;
 		}
 	}
+	
+	//Deleting the Node By Key 
+	public void deleteByKey(DoubleLinkedList list,int key)
+	{
+		ListNode curr_node=list.head,prev_node=null;
+		if(curr_node.data==key)
+		{  
+			curr_node=curr_node.next;
+			
+			curr_node.prev=null;
+			
+			list.head=curr_node;
+			System.out.println("Key"+key +" found As Head Node And Deleted");
+			return;
+		}
+		if(curr_node!=null&&curr_node.data!=key)
+		{
+			while(curr_node!=null&&curr_node.data!=key)
+			{
+				prev_node=curr_node;
+				curr_node=curr_node.next;
+			}
+			
+			curr_node=curr_node.next;
+			prev_node.next=curr_node;
+			curr_node.prev=prev_node;
+			System.out.println("Key"+key +" found In Between And Deleted");
+			return;
+		}
+		
+		
+		
+		
+	}
+	//Deleting by index
+			public void deleteByIndex(DoubleLinkedList list,int index)
+			{
+				ListNode curr_node=list.head,prev_node=null;
+				int count=0;
+				if(index==count)
+				{
+					curr_node=curr_node.next;
+					curr_node.prev=null;
+					list.head=curr_node;
+					System.out.println("Node deleted");
+					return;
+				}
+				if(curr_node!=null&&count<index-1)
+				{
+					while(curr_node!=null&&count<index)
+					{
+						prev_node=curr_node;
+						curr_node=curr_node.next;
+						count++;
+					}
+					curr_node=curr_node.next;
+					curr_node.prev=prev_node;
+					prev_node.next=curr_node;
+					System.out.println("Node deleted");
+					return;
+				}
+			}
 	public static void main(String[] args) 
 	{
 		DoubleLinkedList list=new DoubleLinkedList();
@@ -132,6 +194,7 @@ public class DoubleLinkedList
 		list.insertAtBeg(list,3 );
 		list.insertAtIndex(list, 5, 2);
 		list.insertAtIndex(list, 2, 0);
+		list.deleteByIndex(list, 2);
 		list.printlist(list);
 		list.traverseBackwards(list);
 	}
