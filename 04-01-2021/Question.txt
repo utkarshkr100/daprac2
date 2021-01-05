@@ -1,23 +1,23 @@
 Question.1
 Cicular  Doubly Linked Lists
-Basic Operations on a List
+Basic Operations on a Cicular  Doubly Linked Lists
 • Traversing the list
 • Inserting an item in the list
 • Deleting an item from the list
 
-Singly Linked List Insertion
+Cicular  Doubly Linked Lists Insertion
 Insertion into a singly-linked list has three cases:
 • Inserting a new node before the head (at the beginning)
 • Inserting a new node after the tail (at the end of the list)
 • Inserting a new node at the middle of the list (random location)
 
-Singly Linked List Deletion
+Cicular  Doubly Linked Lists  Deletion
 Similar to insertion, here we also have three cases.
 • Deleting the first node
 • Deleting the last node
 • Deleting an intermediate node.
 
-Deletion by Keys(Search the data in the linked list)
+Deletion by Keys(Search the data in the Cicular  Doubly Linked Lists)
 • Deleting the first node
 • Deleting the last node
 • Deleting an intermediate node.
