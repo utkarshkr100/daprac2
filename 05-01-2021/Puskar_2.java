@@ -15,12 +15,21 @@ public class NthNodeFromEnd
 		}
 		curr_node=list.head;
 		int count=total_count-n;
-		while(count!=0)
+		if(count>=0)
+
 		{
-			curr_node=curr_node.next;
-			count--;
+			while(count!=0)
+			{
+				curr_node=curr_node.next;
+				count--;
+			}
+			System.out.println("Node is : "+curr_node.data);
 		}
-		System.out.println("Node is : "+curr_node.data);
+		else
+		{
+			System.out.println("Node is Not Availabe ");
+			
+		}
 		 
 	}
  public static void main(String[] args)
