@@ -1,0 +1,20 @@
+Question 1.
+Insert a node in a sorted linked list
+
+Question 2.
+Reverse a singly linked list.
+(Iterative version)
+
+Question 3.
+Reverse a singly linked list.
+(Recursive version)
+
+Question 4.
+How will you find the middle of the linked list?
+
+Question 5.
+Can we improve the complexity of Problem-4?
+
+Question 6.
+Can we solve Problem-4 just in one scan?
+

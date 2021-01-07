@@ -1,0 +1,21 @@
+Question 1.
+Suppose there are two singly linked lists both of which intersect at some point
+and become a single linked list. The head or start pointers of both the lists are known, but
+the intersecting node is not known. Also, the number of nodes in each of the lists before
+they intersect is unknown and may be different in each list. List1 may have n nodes before
+it reaches the intersection point, and List2 might have m nodes before it reaches the
+intersection point where m and n may be m = n,m < n or m > n. Give an algorithm for
+finding the merging point.
+
+Question 2.
+Can we solve Problem-1 using the sorting technique?
+
+Question 3.
+Can we use stacks for solving Problem-1?
+
+Question 4.
+Can we still think of finding an alternative solution for Problem-1?
+
+Question 5.
+Can we improve the complexity for the Problem-1?
+

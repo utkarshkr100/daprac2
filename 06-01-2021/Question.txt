@@ -1,1 +1,22 @@
 Question 1.
+Check whether the given linked list is either NULL-terminated or ends in a cycle
+(cyclic).
+OR
+We are given a pointer to the first element of a linked list L. There are two
+possibilities for L, it either ends (snake) or its last element points back to one of the earlier
+elements in the list (snail). Give an algorithm that tests whether a given list L is a snake or
+a snail.
+
+Question 2.
+Can we solve Problem-1 using the sorting technique?
+
+Question 3.
+Can we solve the Problem-1 in O(n)?
+
+Question 4.
+Check whether the given linked list is NULL-terminated or not. If there is a
+cycle find the start node of the loop.
+
+Question 5.
+Check whether the given linked list is NULL-terminated. If there is a cycle, find
+the length of the loop.

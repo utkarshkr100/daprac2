@@ -6,15 +6,9 @@ Question.2
 Find nth node from the end of a Linked List.(Problem-2)
 
 
+
 Question.3
-Can we improve the complexity of Problem-2 using hash table.(Problem-3)
+Can we solve Problem-2 in one scan?(Problem-3)
 
 Question.4
-Can we use the Problem-3 approach for solving Problem-2 without creating the
-hash table?
-
-Question.5
-Can we solve Problem-2 in one scan?
-
-Question.6
-Can we solve Problem-5 with recursion?
+Can we solve Problem-3 with recursion?
